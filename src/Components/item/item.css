@@ -1,0 +1,11 @@
+.Item {
+    height: 100px;
+    width: 140px;
+    /*background: url("../../Assets/img/1.gif");*/
+    /*background-size: cover;*/
+    background-size: 100%;
+    /*border-radius: 50%;*/
+    position: absolute;
+    left: 50%;
+    transition-duration: 0.3s;
+}

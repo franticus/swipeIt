@@ -1,0 +1,22 @@
+.Footer {
+    margin: 200px auto 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 40%;
+    min-width: 450px;
+    /*border: 1px solid red;*/
+    /*border-radius: 30px;*/
+    /*background-color: #e2e7ec;*/
+    color: #0b0a2a;
+    font-size: 12px;
+}
+
+.Footer a {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #0b0a2a;
+}

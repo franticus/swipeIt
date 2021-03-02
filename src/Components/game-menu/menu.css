@@ -1,0 +1,24 @@
+.Menu {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    position: absolute;
+    margin: 20px auto;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    top: -20px;
+    left: 0;
+    font-size: 40px;
+    z-index:100;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.Menu p:hover {
+    transform: rotateZ(3deg);
+    cursor: pointer;
+    transition-duration: .3s;
+
+}

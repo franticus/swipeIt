@@ -1,13 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    color: #f1eceb;
+    margin: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    background-color: #ff6600;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+    /*background-color: #3822c6;*/
+    /*background: rgb(58,23,103);*/
+    background: linear-gradient(360deg, rgb(255, 179, 0) 7%, rgb(255, 0, 0) 96%);
+    padding: 10px;
+    position: relative;
+    margin: 20px auto;
+    height: 500px;
+    width: 500px;
+    border: 3px solid #ac551b;
+    border-radius: 10px;
+    box-shadow: 0 15px 20px black;
+    overflow: hidden;
+}
+
+/*.App .Item:nth-child(-n+2) {*/
+/*  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);*/
+/*}*/
+
+.Queue {
+    position: absolute;
+    top: -9550px;
+    left: 40px;
+    height: 10000px;
+    width: 400px;
+    /*border: 1px solid #1b26ac;*/
+    border-radius: 50px;
+    overflow: hidden;
+    transition-duration: 0.5s;
 }

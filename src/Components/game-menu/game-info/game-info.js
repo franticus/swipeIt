@@ -4,7 +4,7 @@ import "./game-info.css"
 const GameInfo = () => {
     return (
         <div className="GameInfo">
-            <p>Ублюдок, мать твою, а ну иди сюда, говно собачье, решил ко мне лезть?</p>
+            <p>Рассортируй пришельцев на скорось клавишами влево вправо, тапами или кликами!</p>
             <button>Back</button>
         </div>
     );

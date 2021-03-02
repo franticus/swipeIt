@@ -16,7 +16,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Assets/img" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JS\2_REACT\swipeit\src\Assets\img" />
+      <recent name="D:\JS\2_REACT\swipeit\src\Assets\sounds" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JS\2_REACT\swipeit\src\Assets\img" />
+      <recent name="D:\JS\2_REACT\swipeit\src\Assets\sounds" />
+      <recent name="D:\JS\2_REACT\swipeit\src\Components\timer" />
+      <recent name="D:\JS\2_REACT\swipeit\src\Components\item" />
+    </key>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -25,11 +39,86 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613493975498</updated>
-      <workItem from="1613493976889" duration="306000" />
+      <workItem from="1613493976889" duration="525000" />
+      <workItem from="1613494508777" duration="9107000" />
+      <workItem from="1613543675312" duration="11460000" />
+      <workItem from="1613555442959" duration="11896000" />
+      <workItem from="1613567519947" duration="2506000" />
+      <workItem from="1613570080804" duration="11254000" />
+      <workItem from="1613622199098" duration="34621000" />
+      <workItem from="1614162463357" duration="11197000" />
+      <workItem from="1614350905587" duration="5681000" />
+      <workItem from="1614616127111" duration="3122000" />
+      <workItem from="1614657054250" duration="1153000" />
+      <workItem from="1614661079998" duration="4308000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="313" y="331" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613654686204">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="313" y="331" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1613654686204" />
+    <state x="312" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614174294409">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="312" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1614174294409" />
+    <state x="401" y="400" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1613576539299">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="401" y="400" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1050@0.0.1920.1050" timestamp="1613576539299" />
+    <state x="362" y="279" key="FileChooserDialogImpl" timestamp="1614658421349">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="362" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1614658421349" />
+    <state x="154" y="263" key="IDE.errors.dialog" timestamp="1613580242929">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="154" y="263" key="IDE.errors.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1613580242929" />
+    <state x="56" y="173" key="SettingsEditor" timestamp="1614665439119">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="56" y="173" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1614665439119" />
+    <state x="406" y="402" width="615" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1613576531240">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="406" y="402" width="615" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1613576531240" />
+    <state x="217" y="247" key="run.anything.popup" timestamp="1613655802134">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="217" y="247" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1613655802134" />
+    <state x="198" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1614174771053">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="198" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1614174771053" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/App.js</url>
+          <line>249</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/App.js</url>
+          <line>250</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/App.js</url>
+          <line>256</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/App.js</url>
+          <line>76</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

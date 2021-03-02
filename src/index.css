@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 body {
@@ -14,18 +17,14 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    background-color: #ff6600;
-}
-
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    /*background-color: #101e49;*/
+    background: url("./Assets/img/zvezdy.jpg") center no-repeat;
 }
 
 .App {
-    /*background-color: #3822c6;*/
-    /*background: rgb(58,23,103);*/
-    background: linear-gradient(360deg, rgb(255, 179, 0) 7%, rgb(255, 0, 0) 96%);
+    background: linear-gradient(-45deg, #263fbd, #9e21ba, #5b2c9e, #1f866d);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
     padding: 10px;
     position: relative;
     margin: 20px auto;
@@ -35,6 +34,24 @@ code {
     border-radius: 10px;
     box-shadow: 0 15px 20px black;
     overflow: hidden;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
 /*.App .Item:nth-child(-n+2) {*/

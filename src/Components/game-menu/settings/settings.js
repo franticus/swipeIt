@@ -5,19 +5,31 @@ const Settings = () => {
     return (
         <div className="Settings">
             <p>Settings</p>
-            Music
-            <input type="checkbox"/>
+            <label>
+            <input className="Sfx" type="checkbox"/>
+                Sfx
+            </label>
             <input type="range"/>
             Time
             <div className='Time'>
-            <input name='Time' type="radio"/> 10s
-            <input name='Time' type="radio" defaultChecked/> 20s
-            <input name='Time' type="radio"/> 30s
+                <label>
+                    <input name='Time' type="radio"/> 10s
+                </label>
+                <label>
+                    <input name='Time' type="radio" defaultChecked/> 20s
+                </label>
+                <label>
+                    <input name='Time' type="radio"/> 30s
+                </label>
             </div>
             Skin
             <div className='Skin'>
-                <input name='Skin' type="radio" defaultChecked/> Left
-                <input name='Skin' type="radio"/> Right
+                <label>
+                    <input name='Skin' type="radio" defaultChecked/> Left
+                </label>
+                <label>
+                    <input name='Skin' type="radio"/> Right
+                </label>
             </div>
             <button>Back</button>
         </div>

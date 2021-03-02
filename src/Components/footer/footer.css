@@ -3,12 +3,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 50px;
+    height: 30px;
     width: 40%;
     min-width: 450px;
     /*border: 1px solid red;*/
-    /*border-radius: 30px;*/
-    /*background-color: #e2e7ec;*/
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.1);
     color: #0b0a2a;
     font-size: 12px;
 }
@@ -18,5 +18,5 @@
     align-items:center;
     justify-content: space-around;
     text-decoration: none;
-    color: #0b0a2a;
+    color: #d4d6e3;
 }

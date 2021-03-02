@@ -77,7 +77,7 @@ class App extends React.Component {
     actionClick = (event) => {
         console.log(event.target.alt)
         if (event.target.innerHTML === "New Game") {
-            console.log('Вы кликнули мышкой')
+            // console.log('Вы кликнули мышкой')
             count = 20
             setInterval(() => this.timer(), 1000)
 
@@ -183,7 +183,7 @@ class App extends React.Component {
         }
 
         if (event.keyCode === 40) {
-            console.log('Вы нажали клавишу вниз')
+            // console.log('Вы нажали клавишу вниз')
             document.location.reload(true)
             // this.setState({
             //     posX: 130,
@@ -200,7 +200,7 @@ class App extends React.Component {
         }
 
         if (event.keyCode === 37) {
-            console.log('Вы нажали клавишу влево')
+            // console.log('Вы нажали клавишу влево')
 
             if (document.querySelector('#timer').innerHTML !== `Finished!` &&
                 this.state.showPress === false) {
@@ -223,7 +223,7 @@ class App extends React.Component {
             }
         }
         if (event.keyCode === 39) {
-            console.log('Вы нажали клавишу вправо')
+            // console.log('Вы нажали клавишу вправо')
 
             if (document.querySelector('#timer').innerHTML !== `Finished!` &&
                 this.state.showPress === false) {
@@ -248,7 +248,6 @@ class App extends React.Component {
 
     render() {
         console.log("render")
-        console.log(this.state.arrCircle)
         return (
             <div>
                 <audio controls hidden={true}>
